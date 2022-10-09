@@ -1,0 +1,4 @@
+<app-navbar (searchEvent)="mySearch = $event"></app-navbar>
+<app-search-page [currentSearch]="mySearch"></app-search-page>
+<hr />
+<p>App: {{ mySearch }}</p>

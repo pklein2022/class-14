@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { BookshelfListComponent } from './bookshelf-list.component';
+
+describe('BookshelfListComponent', () => {
+  let component: BookshelfListComponent;
+  let fixture: ComponentFixture<BookshelfListComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ BookshelfListComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(BookshelfListComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

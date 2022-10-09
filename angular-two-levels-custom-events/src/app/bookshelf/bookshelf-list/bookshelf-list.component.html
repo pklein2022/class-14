@@ -1,0 +1,5 @@
+<h2>My Books</h2>
+<div *ngFor="let book of books">
+  <li (click)="onBookClick(book)">{{book.title}}</li>
+</div>
+<hr>

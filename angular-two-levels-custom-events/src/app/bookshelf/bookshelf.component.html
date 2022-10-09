@@ -1,0 +1,5 @@
+<h1>Book Shelf</h1>
+<div>
+  <app-bookshelf-list (bookSelected)="selectedBook = $event; onBookChange($event)"></app-bookshelf-list>
+</div>
+Book in bookshelf: {{selectedBook.title}}
